@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F9F7F7;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:20px;
+    font-style: normal;
+}
+
+
+#container{
+    margin-left: 180px;
+    margin-right: 150px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.flexbox>div{
+    border: solid black 3px;
+    border-radius: 50px;
+}
+
+.flexbox{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+
+#first{
+    width:350px ;
+    height:480px;
+    background-color: #DBE2EF;
+    text-align: center;
+}
+
+
+#second{
+    width:690px;
+    height:480px;
+    background-color: #DBE2EF;
+}
+
+
+#Search{
+    border: solid black 3px;
+    border-radius: 50px;
+    width: 350px;
+    height: 50px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+span{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+span>p{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+#Search>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+input{
+    width: 245px;
+    height: 50px;
+    font-size: larger;
+    border: none;
+    margin-left: 22px;
+}
+#values{
+    border-radius: 50px;
+    margin: 35px;
+    width: 600px;
+    height: 400px;
+    background-color: #DBE2EF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+}
+
+.measures{
+    padding: 20px;
+    font-size:20px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 25px;
+    width: 162px;
+    height:162px;
+}
+
+.measures>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.temp{
+    color: #112D4E;
+    margin-top: 50px;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+#first>img{
+    margin-top: 30px;
+    background-color: #DBE2EF;
+    width: 250px;
+    height: 250px;
+}
+
+#value{
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #DBE2EF;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#Current{
+    margin-top: 30px;
+    background-color: #DBE2EF;
+    font-size: xxx-large;
+}
