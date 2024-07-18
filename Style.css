@@ -9,6 +9,9 @@
     font-style: normal;
 }
 
+input{
+    border: none;
+}
 
 #container{
     margin-left: 180px;
@@ -66,8 +69,11 @@ span>p{
     font-size: xxx-large;
     font-weight: bold;
 }
+button{
+    border: none;
+}
 
-#Search>img{
+button>img{
     width: 40px;
     height: 40px;
     margin-left: 20px;

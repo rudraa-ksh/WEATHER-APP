@@ -4,7 +4,6 @@
     <title>Weather App</title>
     <link rel="icon" href="Icons/04dn.png">
     <link rel="stylesheet" href="Style.css">
-    <script src="Index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -14,52 +13,53 @@
         <div class="flexbox">
             <span id="Search">
                 <input type="text" placeholder="Search">
-                <img src="./Icons/Search.png" alt="">
+                <button><img src="./Icons/Search.png" alt=""></button>
             </span>
             <span>
                 <p>Weather Today,</p>
-                <img src="..\Icons\Location.png">
-                <p>Germany</p>
+                <img src="./Icons/Location.png">
+                <p id="loc">Add Location</p>
             </span>
         </div>
         <div class="flexbox">
             <div id="first">
-                <p id="value">Sunny</p>
+                <p id="value">Not Available</p>
                 <img src="./Icons/01d.png">
-                <p id="Current">35&deg;C</p>
+                <p id="Current">0&deg;C</p>
             </div>
             <div id="second">
                 <span id="values">
                     <div class="measures">
                         <p>Feels Like</p>
-                        <p class="temp">35&deg;C</p>
+                        <p class="temp" id="Feels">0&deg;C</p>
                     </div>
                     <div class="measures">
                         <p>Min Temperature</p>
-                        <p class="temp">35&deg;C</p>
+                        <p class="temp" id="Min">0&deg;C</p>
                     </div>
                     <div class="measures">
                         <p>Max Temperature</p>
-                        <p class="temp">35&deg;C</p>
+                        <p class="temp" id="Max">0&deg;C</p>
                     </div>
                     <div class="measures">
                         <p>Humidity</p>
                         <img src="./Icons/Humidity.png">
-                        <p>64%</p>
+                        <p id="Humidity">0%</p>
                     </div>
                     <div class="measures">
                         <p>Wind</p>
                         <img src="./Icons/Wind.png">
-                        <p>10km/hr</p>
+                        <p id="Wind">0km/hr</p>
                     </div>
                     <div class="measures">
                         <p>Visibility</p>
                         <img src="./Icons/Visibility.png">
-                        <p>10km</p>
+                        <p id="Visibility">0km</p>
                     </div>
                 </span>
             </div>
         </div>
     </div>
+    <script type="module" src="Index.js"></script>
 </body>
 </html>
